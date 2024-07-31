@@ -61,31 +61,12 @@ The columns of the dataframe and their types are not right types. We fix their t
 
 #### 2. Compare their measures of central tendency
 
-At this step, we calculate measures of central tendency for the whole dataset first, then smoker and non-smoker dataset.
+At this step, we calculate measures of central tendency for the whole dataset, smoker and non-smoker dataset.
 
-**Whole dataset**                                 
-|        |       0 |                           
-|:-------|--------:|
-| min    |  1      |
-| max    | 10      |
-| mean   |  2.9983 |
-| median |  2.9    |
-
-**Smoker**
-
-|        |       0 |
-|:-------|--------:|
-| min    |  1      |
-| max    | 10      |
-| mean   |  3.0087 |
-| median |  3      |
-
-**Non-smoker**
-
-|        |      0 |
-|:-------|-------:|
-| min    | 1      |
-| max    | 9      |
-| mean   | 2.9919 |
-| median | 2.74   |
+|        |   Common |   Smokers |   Non-smokers |
+|:-------|---------:|----------:|--------------:|
+| min    |  1       |   1       |       1       |
+| max    | 10       |  10       |       9       |
+| mean   |  2.99828 |   3.00871 |       2.99185 |
+| median |  2.9     |   3       |       2.74    |
 
