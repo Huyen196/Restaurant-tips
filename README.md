@@ -61,7 +61,7 @@ The columns of the dataframe and their types are not right types. We fix their t
 
 #### 2. Compare their measures of central tendency
 
-At this step, we calculate measures of central tendency for the whole dataset, smoker and non-smoker dataset.
+At this step, we calculate measures of central tendency (include min, max, mean, median) for the whole dataset, smoker and non-smoker dataset.
 
 |        |   Common |   Smokers |   Non-smokers |
 |:-------|---------:|----------:|--------------:|
@@ -107,3 +107,70 @@ It's not enough information to conclude smokers or non-somkers give more tips.
 #### 3. Conclustion
 
 It's not enough information to conclude male and female give more tips.
+
+### III.  Do weekends bring more tips?
+#### 1. Separate weekday and weekend
+
+**Weekdend**
+|    |   id |   total_bill |   tip | sex    | smoker   | day   | time   |   size |
+|---:|-----:|-------------:|------:|:-------|:---------|:------|:-------|-------:|
+|  0 |    0 |        16.99 |  1.01 | Female | No       | Sun   | Dinner |      2 |
+|  1 |    1 |        10.34 |  1.66 | Male   | No       | Sun   | Dinner |      3 |
+|  2 |    2 |        21.01 |  3.5  | Male   | No       | Sun   | Dinner |      3 |
+|  3 |    3 |        23.68 |  3.31 | Male   | No       | Sun   | Dinner |      2 |
+|  4 |    4 |        24.59 |  3.61 | Female | No       | Sun   | Dinner |      4 |
+
+**Weekday**
+|    |   id |   total_bill |   tip | sex   | smoker   | day   | time   |   size |
+|---:|-----:|-------------:|------:|:------|:---------|:------|:-------|-------:|
+| 77 |   77 |        27.2  |  4    | Male  | No       | Thur  | Lunch  |      4 |
+| 78 |   78 |        22.76 |  3    | Male  | No       | Thur  | Lunch  |      2 |
+| 79 |   79 |        17.29 |  2.71 | Male  | No       | Thur  | Lunch  |      2 |
+| 80 |   80 |        19.44 |  3    | Male  | Yes      | Thur  | Lunch  |      2 |
+| 81 |   81 |        16.66 |  3.4  | Male  | No       | Thur  | Lunch  |      2 |
+
+#### 2. Compare their measures of central tendency
+
+|        |   Common |   Weekend |   Weekday |
+|:-------|---------:|----------:|----------:|
+| min    |  1       |   1       |   1       |
+| max    | 10       |  10       |   6.7     |
+| mean   |  2.99828 |   3.11528 |   2.76284 |
+| median |  2.9     |   3       |   2.5     |
+
+#### 3. Conclusion
+As we can see on the table, tip on weekend (Sat, Sun) more than weekday
+
+### IV.  Do dinners bring more tips?
+#### 1. Separate lunch and dinner
+
+**Lunch**
+|    |   id |   total_bill |   tip | sex   | smoker   | day   | time   |   size |
+|---:|-----:|-------------:|------:|:------|:---------|:------|:-------|-------:|
+| 77 |   77 |        27.2  |  4    | Male  | No       | Thur  | Lunch  |      4 |
+| 78 |   78 |        22.76 |  3    | Male  | No       | Thur  | Lunch  |      2 |
+| 79 |   79 |        17.29 |  2.71 | Male  | No       | Thur  | Lunch  |      2 |
+| 80 |   80 |        19.44 |  3    | Male  | Yes      | Thur  | Lunch  |      2 |
+| 81 |   81 |        16.66 |  3.4  | Male  | No       | Thur  | Lunch  |      2 |
+
+**Dinner**
+|    |   id |   total_bill |   tip | sex    | smoker   | day   | time   |   size |
+|---:|-----:|-------------:|------:|:-------|:---------|:------|:-------|-------:|
+|  0 |    0 |        16.99 |  1.01 | Female | No       | Sun   | Dinner |      2 |
+|  1 |    1 |        10.34 |  1.66 | Male   | No       | Sun   | Dinner |      3 |
+|  2 |    2 |        21.01 |  3.5  | Male   | No       | Sun   | Dinner |      3 |
+|  3 |    3 |        23.68 |  3.31 | Male   | No       | Sun   | Dinner |      2 |
+|  4 |    4 |        24.59 |  3.61 | Female | No       | Sun   | Dinner |      4 |
+
+#### 2. Compare their measures of central tendency
+
+|        |   Common |   Lunch |   Dinner |
+|:-------|---------:|--------:|---------:|
+| min    |  1       | 1.25    |  1       |
+| max    | 10       | 6.7     | 10       |
+| mean   |  2.99828 | 2.72809 |  3.10267 |
+| median |  2.9     | 2.25    |  3       |
+
+#### 3. Conclusion
+
+
