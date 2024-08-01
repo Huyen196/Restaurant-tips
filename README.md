@@ -70,3 +70,40 @@ At this step, we calculate measures of central tendency for the whole dataset, s
 | mean   |  2.99828 |   3.00871 |       2.99185 |
 | median |  2.9     |   3       |       2.74    |
 
+#### 3. Conclustion
+
+It's not enough information to conclude smokers or non-somkers give more tips.
+
+### II. Do males give more tips?
+#### 1. Separate male and female
+
+**Male**
+|    |   id |   total_bill |   tip | sex   | smoker   | day   | time   |   size |
+|---:|-----:|-------------:|------:|:------|:---------|:------|:-------|-------:|
+|  1 |    1 |        10.34 |  1.66 | Male  | No       | Sun   | Dinner |      3 |
+|  2 |    2 |        21.01 |  3.5  | Male  | No       | Sun   | Dinner |      3 |
+|  3 |    3 |        23.68 |  3.31 | Male  | No       | Sun   | Dinner |      2 |
+|  5 |    5 |        25.29 |  4.71 | Male  | No       | Sun   | Dinner |      4 |
+|  6 |    6 |         8.77 |  2    | Male  | No       | Sun   | Dinner |      2 |
+
+**Female**
+|    |   id |   total_bill |   tip | sex    | smoker   | day   | time   |   size |
+|---:|-----:|-------------:|------:|:-------|:---------|:------|:-------|-------:|
+|  0 |    0 |        16.99 |  1.01 | Female | No       | Sun   | Dinner |      2 |
+|  4 |    4 |        24.59 |  3.61 | Female | No       | Sun   | Dinner |      4 |
+| 11 |   11 |        35.26 |  5    | Female | No       | Sun   | Dinner |      4 |
+| 14 |   14 |        14.83 |  3.02 | Female | No       | Sun   | Dinner |      2 |
+| 16 |   16 |        10.33 |  1.67 | Female | No       | Sun   | Dinner |      3 |
+
+#### 2. Compare their measures of central tendency
+
+|        |   Common |     Male |   Female |
+|:-------|---------:|---------:|---------:|
+| min    |  1       |  1       |  1       |
+| max    | 10       | 10       |  6.5     |
+| mean   |  2.99828 |  3.08962 |  2.83345 |
+| median |  2.9     |  3       |  2.75    |
+
+#### 3. Conclustion
+
+It's not enough information to conclude male and female give more tips.
