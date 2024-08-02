@@ -71,6 +71,7 @@ At this step, we calculate measures of central tendency (include min, max, mean,
 | median |  2.9     |   3       |       2.74    |
 
 #### 3. Conclustion
+![image](https://github.com/user-attachments/assets/a9453a0e-9d99-4e6e-aa8e-3a0c4afec003)
 
 It's not enough information to conclude smokers or non-somkers give more tips.
 
