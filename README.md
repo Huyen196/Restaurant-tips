@@ -107,6 +107,8 @@ It's not enough information to conclude smokers or non-somkers give more tips.
 
 #### 3. Conclustion
 
+![image](https://github.com/user-attachments/assets/65f5fad7-769a-485c-acec-218472f80b8a)
+
 It's not enough information to conclude male and female give more tips.
 
 ### III.  Do weekends bring more tips?
@@ -140,6 +142,9 @@ It's not enough information to conclude male and female give more tips.
 | median |  2.9     |   3       |   2.5     |
 
 #### 3. Conclusion
+
+![image](https://github.com/user-attachments/assets/ff53b826-4d68-4fe0-9899-677a1b4530e7)
+
 As we can see on the table, tip on weekend (Sat, Sun) more than weekday
 
 ### IV.  Do dinners bring more tips?
@@ -173,5 +178,7 @@ As we can see on the table, tip on weekend (Sat, Sun) more than weekday
 | median |  2.9     | 2.25    |  3       |
 
 #### 3. Conclusion
+
+![image](https://github.com/user-attachments/assets/c0697c8a-e8f7-4ea2-a9ab-07f0e4a58bc4)
 
 
